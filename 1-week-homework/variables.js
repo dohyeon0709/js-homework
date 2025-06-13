@@ -1,0 +1,42 @@
+// 1. 사용자 이름을 저장할 변수를 선언하고 "자신의 이름"을 할당하세요.
+let myName = "남도현";
+console.log(myName);
+
+// 2. "절대 영도(온도의 최저 한계)인 -273.15°C"를 담을 상수를 선언하세요.
+const absoluteTemperature = -273.15;
+console.log(absoluteTemperature + "°C");
+
+// 3. "로그인 여부"를 확인하는 불리언 타입 변수을 선언하고 적절한값을 할당하세요.
+// 0과 1로 제어
+let isLoggedIn = Boolean(1);
+console.log(isLoggedIn);
+
+// 4. "사용자 나이" 변수를 선언하고 숫자 값을 할당하세요.
+let myAge = 26;
+console.log(myAge + "살");
+
+// 5. "상품 가격(예: 39,900원)"을 담는 변수를 작성하세요.
+// 개발자가 알아보기 쉽게 언더바로 구분
+let productPrice = 39_900;
+console.log("상품 가격 : " + productPrice + "원");
+
+// 6. 웹 페이지의 "배경색"을 담는 상수를 작성하고 적절한 값을 할당하세요.
+const bgColor = "black";
+console.log("배경색 : " + bgColor);
+
+// 7. 사용자가 작성한 "댓글 수(예: 12)"를 담는 변수를 선언하고 값을 할당하세요.
+let numberOfComments = 12;
+console.log(numberOfComments + "개");
+
+// 8. "현재 페이지 번호(예: 3)"를 담는 변수를 작성하고 적절한 값을 할당하세요.
+let currentPage = 3;
+console.log(currentPage + "페이지");
+
+// 9. "회원 등급('VIP', '골드', '실버' 중 하나)"을 담는 변수를 작성해보세요.
+let membershipLevel = "VIP";
+console.log("회원 등급 : " + membershipLevel);
+
+// 10. "버튼이 클릭되었는지 여부"를 담는 변수를 선언하고 불리언 타입 값을 설정하세요.
+// 0과 1로 제어
+let isBtnClicked = Boolean(0);
+console.log(isBtnClicked);
